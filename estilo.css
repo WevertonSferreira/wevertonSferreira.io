@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: rgb(54, 77, 204);
+    background: linear-gradient(176deg, rgba(54, 77, 204, 1) 0%, rgba(19, 35, 124, 1) 100%);
+}
+h1{
+    color:rgb(0, 0, 0);
+    font-weight: 150px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+}
+hr{
+    color: grey;
+    height: 1px;
+    margin: 0;
+    margin-bottom: 7px;
+}
+h3{
+    margin: 0;
+}
+footer{
+    background-color: rgb(37, 58, 92);
+    padding: 20px;
+    font-family: 'Amatic SC', cursive;
+}
+footer p{
+    color: grey;
+    display: block;
+    font-size: 15px;
+}
+.avatar{
+    width: 150px;
+    border-radius: 70px;
+    border:1px solid grey;
+    box-shadow: 0 0 30px black;
+    margin-bottom: 20px;
+}
+.social {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    list-style: none;
+}
+.social img{
+    width: 40px;
+    border-radius: 10px;
+}
+.profile{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.link-list{
+    list-style: none;
+}
+.link-list, li{
+    margin: 10px 20px;
+}
+.link-list li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    color: rgb(7, 9, 85);
+    border-radius: 30px;
+    box-shadow: 0 0 10px white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.git{
+    width: 50px;
+    border-radius: 50px;
+    height: 55px;
+}
+.deus{
+    
+    width: 35px;
+    border-radius: 100px;
+}
